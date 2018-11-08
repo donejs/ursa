@@ -1,6 +1,6 @@
 {
-  "name": "ursa",
-  "version": "0.9.4",
+  "name": "donejs-ursa",
+  "version": "1.0.0",
   "keywords": [
     "crypto",
     "key",
