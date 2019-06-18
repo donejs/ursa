@@ -3,17 +3,20 @@ sudo: false
 env:
   - CXX=g++-4.8
 node_js:
-  - "0.12"
-  - "4"
-  - "5"
-  - "6"
-  - "7"
-  - "8"
-  - "9"
-  - "10"
+  - '0.12'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '10'
 addons:
   apt:
     sources:
-    - ubuntu-toolchain-r-test
+      - ubuntu-toolchain-r-test
     packages:
-    - g++-4.8
+      - g++-4.8
+dist: xenial
+services:
+  - xvfb
